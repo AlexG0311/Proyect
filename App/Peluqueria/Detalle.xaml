@@ -55,7 +55,6 @@
                         CornerRadius="25"
                         HasShadow="True"
                         HeightRequest="50"
-                    
                         WidthRequest="50">
 
 
@@ -89,7 +88,7 @@
                     Margin="100,17,0,0"
                     FontAttributes="Bold"
                     FontSize="13"
-                    Text="Ver todo"
+                    Text="Ver todoo"
                     TextColor="Blue">
                     <!--  Añadí el color de texto para que parezca un enlace  -->
                     <Label.GestureRecognizers>
@@ -141,8 +140,7 @@
                             </VerticalStackLayout>
 
                             <Frame.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="IrServicio"   
-                                                      />
+                                <TapGestureRecognizer Tapped="IrServicio" />
                             </Frame.GestureRecognizers>
                         </Frame>
                     </DataTemplate>
